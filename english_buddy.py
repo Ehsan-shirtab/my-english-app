@@ -5,7 +5,7 @@ import os
 from datetime import datetime
 
 # --- CONFIGURATION ---
-GEMINI_KEY = "YOUR_GEMINI_API_KEY" # <--- PASTE YOUR KEY HERE
+GEMINI_KEY   = "AIzaSyC2QopCfpySnQ9sNQrnc0UOVCC9hBQeFB4" # <--- PASTE YOUR KEY HERE
 genai.configure(api_key=GEMINI_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 DATA_FILE = "my_vocab.json"
